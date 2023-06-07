@@ -1,0 +1,31 @@
+.login-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 32px;
+    background-color: white;
+
+}
+
+.login-page-container .login-form-container {}
+
+.login-page-container .login-form-container .login-form {}
+
+.form-field-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-field-container:last-of-type {
+    margin-bottom: 0;
+}
+
+
+.form-field-container .form-field_label {
+    font-weight: bold;
+    margin-bottom: 8px
+}
